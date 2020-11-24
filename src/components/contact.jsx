@@ -17,10 +17,27 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Let's Connect</h5>
                       </div>
                       <div>
-                        <form
+                        <h5 className="lead">
+                          I'm happy to connect, listen and help. Let's work
+                          together and build something awesome. Let's turn your
+                          idea to an even greater product.
+                        </h5>
+                        <br />
+                        <div>
+                          <h4 style={{ color: "#0078ff" }}>Call Me.</h4>
+                          <a
+                            className="font-weight-bold"
+                            href="tel:8793466424"
+                            rel="noopener noreferrer"
+                          >
+                            +91-8793466424
+                          </a>
+                        </div>
+
+                        {/* <form
                           action="https://formspree.io/xdoeonlo"
                           method="POST"
                           className="contactForm"
@@ -94,7 +111,7 @@ class Contact extends React.Component {
                               </button>
                             </div>
                           </div>
-                        </form>
+                        </form> */}
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -106,8 +123,6 @@ class Contact extends React.Component {
                           Whether you want to get in touch, talk about a project
                           collaboration, or just say hi, I'd love to hear from
                           you.
-                          <br />
-                          Simply fill the from and send me an email.
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -119,18 +134,18 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="mailto:manishmohanani777@gmail.com"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i className="ion-android-mail"></i>
                               </span>
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="http://github.com/mohananimb"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,12 +156,20 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/manish-mohanani-821b46199/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="tel:8793466424" rel="noopener noreferrer">
+                              <span className="ico-circle">
+                                <i className="ion-android-call"></i>
                               </span>
                             </a>
                           </li>
@@ -163,8 +186,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>

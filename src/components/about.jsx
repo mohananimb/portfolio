@@ -1,5 +1,4 @@
 import React from "react";
-import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
@@ -7,56 +6,63 @@ class About extends React.Component {
     this.state = {
       skills: [
         { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "70%", value: "70" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
-          value: "90"
+          value: "90",
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+
         {
           id: "ReactJS_skill",
           content: "ReactJS",
           porcentage: "80%",
-          value: "80"
+          value: "80",
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
+          id: "TypeScript_skill",
+          content: "Typescript",
+          porcentage: "60%",
+          value: "60",
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "Redux_skill",
+          content: "Redux",
           porcentage: "80%",
-          value: "80"
-        }
+          value: "80",
+        },
+        {
+          id: "Bootstrap_skill",
+          content: "Bootstrap",
+          porcentage: "75%",
+          value: "75",
+        },
+        {
+          id: "NodeJS_skill",
+          content: "Node.JS",
+          porcentage: "65%",
+          value: "65",
+        },
+        {
+          id: "Git_skill",
+          content: "Git",
+          porcentage: "80%",
+          value: "80",
+        },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I'm Manish Mohanani , a computer Science graduate, currently working as a front-end developer at uTriva Technologies Pune, passionate about learning new technologies and coding. Highly capable to work in a team environment. Good command on range of modern technologies like JavaScript and it's library like ReactJS.",
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I've also good knowledge of backend technologies like node.js and DB's like mongoDB",
         },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
-      ]
+      ],
     };
   }
 
@@ -87,7 +93,7 @@ class About extends React.Component {
                     </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
+                      {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
@@ -114,7 +120,7 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
-                      {this.state.about_me.map(content => {
+                      {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}

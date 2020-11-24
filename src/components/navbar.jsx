@@ -1,8 +1,7 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import logo1 from "../img/manish.jpg";
 
 class Navbar extends React.Component {
   constructor() {
@@ -39,7 +38,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: logo1 });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -88,6 +87,7 @@ class Navbar extends React.Component {
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
             <img
+             className="profile-logo"
               src={this.state.logo}
               alt="logo"
               style={{ maxWidth: "100px" }}
