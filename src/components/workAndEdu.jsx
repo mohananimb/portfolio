@@ -1,5 +1,4 @@
 import React from 'react'
-import imageOverlay from '../img/earth.jpg'
 
 class WorkAndEdu extends React.Component {
   render () {
