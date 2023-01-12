@@ -16,7 +16,18 @@ class WorkAndEdu extends React.Component {
                         <h5 className='title-left'>Work</h5>
                       </div>
                       <div>
-                        <h5 className='lead'>August 2020 - Present</h5>
+                        <div>
+                        <h5 className='lead'>March 2021 - Present</h5>
+                        <div>
+                          <h3>Roxiler Systems</h3>
+                          <h6>Software Engineer</h6>
+                          <p>
+                            Responsible for working on diﬀerent modules like Admin
+                            Panel, Web and Mobile App, developing mobile app using
+                            react native and code review of other developers.
+                          </p>
+                        </div>
+                        <h5 className='lead'>August 2020 - March 2021</h5>
                         <div>
                           <h3>Utriva Technologies</h3>
                           <h6>Front End Developer</h6>
