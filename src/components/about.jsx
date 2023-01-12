@@ -50,12 +50,42 @@ class About extends React.Component {
           porcentage: "80%",
           value: "80",
         },
+        {
+          id: "tailwind_skill",
+          content: "Tailwind CSS",
+          porcentage: "60%",
+          value: "60",
+        },
+        {
+          id: "react_native_skill",
+          content: "React Native",
+          porcentage: "60%",
+          value: "60",
+        },
+         {
+          id: "mui_skill",
+          content: "Material UI",
+          porcentage: "80%",
+          value: "80",
+        },
+        {
+          id: "aws_skill",
+          content: "AWS",
+          porcentage: "70%",
+          value: "70",
+        },
+        {
+          id: "next_skill",
+          content: "Next.js",
+          porcentage: "80%",
+          value: "80",
+        },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "I'm Manish Mohanani , a computer Science graduate, currently working as a front-end developer at uTriva Technologies Pune, passionate about learning new technologies and coding. Highly capable to work in a team environment. Good command on range of modern technologies like JavaScript and it's library like ReactJS.",
+            "I'm Manish Mohanani , a computer Science graduate, currently working as a software Enginner at Roxiler Systems Pune, passionate about learning new technologies and coding. Highly capable to work in a team environment. Good command on range of modern technologies like JavaScript and it's library like ReactJS.",
         },
         {
           id: "second-p-about",
